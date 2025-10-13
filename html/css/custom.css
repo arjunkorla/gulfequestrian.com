@@ -152,6 +152,10 @@ a:focus{
     padding-left: 15px;
 }
 
+.text-white{
+	color: #FFFFFF !important;
+}
+
 .image-anime{
 	position: relative;
 	overflow: hidden;
@@ -469,7 +473,7 @@ a:focus{
 }
 
 .section-title h2{
-	font-size: 46px;
+	font-size: 40px;
 	font-weight: 700;
 	line-height: 1.2em;
 	letter-spacing: -0.02em;
@@ -595,7 +599,7 @@ a:focus{
 }
 
 .topbar-social-links ul li a:hover i{
-	color: var(--accent-color);
+	color:#000000;
 }
 
 .topbar-social-links p{
