@@ -2723,7 +2723,7 @@ header.main-header .container{
 	background: url('../images/page-header-bg.jpg') no-repeat;
 	background-position: center center;
 	background-size: cover;
-	padding: 150px 0;
+	padding: 50px 0;
 	overflow: hidden;
 }
 
@@ -4350,7 +4350,7 @@ header.main-header .container{
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
-    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .contact-info-item{
