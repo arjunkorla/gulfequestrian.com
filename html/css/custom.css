@@ -749,7 +749,7 @@ header.main-header .container{
 
 .main-menu ul ul li a:hover,
 .main-menu ul ul li a:focus{
-	color: var(--primary-color);
+	color: rgba(255,255,255,.5);
 	background-color: transparent;
 	padding: 8px 20px 8px 23px !important;
 }
@@ -4356,7 +4356,7 @@ header.main-header .container{
 .contact-info-item{
 	position: relative;
 	width: calc(25% - 22.5px);
-	background: var(--white-color);
+	background: #dbecff;
 	border-radius: 20px;
 	padding: 30px;
 }
