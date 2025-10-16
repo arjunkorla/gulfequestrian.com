@@ -156,6 +156,10 @@ a:focus{
 	color: #FFFFFF !important;
 }
 
+.text-center{
+	text-align: center !important;
+}
+
 .image-anime{
 	position: relative;
 	overflow: hidden;
@@ -3611,7 +3615,7 @@ header.main-header .container{
 /************************************/
 
 .page-blog{
-	padding: 100px 0;
+	padding: 50px 0;
 }
 
 .page-pagination{
