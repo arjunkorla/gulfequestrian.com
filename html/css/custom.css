@@ -308,8 +308,21 @@ a:focus{
 }
 
 .video{
-	border: solid 1px #70737A;
+	border: solid 1px var(--divider-color);
+	padding: 2px !important;
 	margin-bottom: 50px;
+}
+
+.clear50x{
+	clear: both;
+	height: 50px;
+}
+
+label{
+	font-weight: 600;
+	color: var(--primary-color);
+	margin-bottom: 10px;
+	display: inline-block;
 }
 
 .readmore-btn{
