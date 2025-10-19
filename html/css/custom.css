@@ -160,6 +160,10 @@ a:focus{
 	text-align: center !important;
 }
 
+.text-right{
+	text-align: right !important;
+}
+
 .image-anime{
 	position: relative;
 	overflow: hidden;
@@ -221,7 +225,7 @@ a:focus{
     padding-left: 0px;
 }
 
-.btn-default{
+.btn-default, .btn-new{
 	position: relative;
     display: inline-block;
     background: var(--accent-color);
@@ -238,7 +242,7 @@ a:focus{
     z-index: 0;
 }
 
-.btn-default:hover{
+.btn-default:hover, .btn-new:hover{
 	color: var(--white-color);
 }
 
@@ -257,11 +261,11 @@ a:focus{
 	z-index: 1;
 }
 
-.btn-default:hover::before{
+.btn-default:hover::before, .btn-new:hover::before{
 	transform: translateY(-50%) rotate(45deg);
 }
 
-.btn-default::after{
+.btn-default::after, .btn-new::after{
 	content: '';
     display: block;
     position: absolute;
@@ -277,22 +281,35 @@ a:focus{
 	z-index: -1;
 }
 
-.btn-default:hover::after{
+.btn-default:hover::after, .btn-new:hover::after{
 	width: 100%;
 	left: 0;
 	right: auto;
 }
 
-.btn-default.btn-highlighted:hover{
+.btn-default.btn-highlighted:hover, .btn-new.btn-highlighted:hover{
 	color: var(--primary-color);
 }
 
-.btn-default.btn-highlighted:hover:before{
+.btn-default.btn-highlighted:hover:before, .btn-new.btn-highlighted:hover:before{
 	filter: brightness(1) invert(1);
 }
 
-.btn-default.btn-highlighted::after{
+.btn-default.btn-highlighted::after, .btn-new.btn-highlighted::after{
 	background-color: var(--white-color);
+}
+
+.btn-new{
+	padding:16px 30px !important;
+}
+
+.btn-new::before{
+	background-image:none !important;
+}
+
+.video{
+	border: solid 1px #70737A;
+	margin-bottom: 50px;
 }
 
 .readmore-btn{
